@@ -34,5 +34,5 @@ python main.py --cuda YOUR_DEVICE --model_dir MODEL_PATH_TO_SAVE --cut_r 5 --n_s
 ```
 We also provide the pretrained model in the directory (./output/pretrained_model/) and the tesring script for reproducibility:
 ```
-sh run_testing.sh
+bash run_testing.sh
 ```
