@@ -16,7 +16,7 @@ Alternatively, we also created an anonymous dropbox account for downloading PDBb
 
 The downloaded data should be preprocessed to generate the protein-ligand graph and features:
 ```
-python Features_gen.py --data_path_core YOUR_DATASET_PATH --data_path_refined YOUR_DATASET_PATH --dataset_name refined --output_path YOUR_OUTPUT_PATH --cutoff 5
+python Feature_gen.py --data_path_core YOUR_DATASET_PATH --data_path_refined YOUR_DATASET_PATH --dataset_name refined --output_path YOUR_OUTPUT_PATH --cutoff 5
 ```
 PS: cutoff is the threshold of cutoff distance between atoms.
 
